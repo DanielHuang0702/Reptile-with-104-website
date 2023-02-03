@@ -10,8 +10,8 @@ import openpyxl
 
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
-if not os.path.exists('job_104_file'):
-    os.mkdir('job_104_file')
+#if not os.path.exists('job_104_file'):
+#    os.mkdir('job_104_file')
 
 url = "https://www.104.com.tw/jobs/search/?ro=0&jobcat=2007001000&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=17&asc=0&page={}&mode=s&jobsource=2018indexpoc&langFlag=0&langStatus=0&recommendJob=1&hotJob=1"
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
