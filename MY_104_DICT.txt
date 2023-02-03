@@ -1,0 +1,9 @@
+Javascript
+MS SQL
+LINUX
+R
+C
+MY SQL
+Node.js
+UI/UX
+Machine Learning
